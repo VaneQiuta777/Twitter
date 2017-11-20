@@ -55,6 +55,7 @@ input {
     border-radius: 50px;
     width: 250px;
     height: 30px;
+    margin-bottom: 10px;
 }
 button {
     border-radius: 50px;
@@ -64,26 +65,71 @@ button {
     border-radius: 50px;
     width: 80px;
 }
-.asideLeft{
-    outline: 1px solid greenyellow;
-    float: left;
-    width: 47%;
-    padding: 10px;
-  }
-  .asideRigth{
-    outline: 1px solid blue;
-    height:100px ;
-    width: 47%;
-    display: inline-block;
-    padding-right:30px;
-  }
-  .asideCenter{
-    outline: 1px solid brown;
-    height: 120px;
+p::before{
+    content: '';
+    display: block;
+    border-bottom: 4px solid #d1ccd1;
+    height: 4px;
     width: 100%;
-    float: left;
+}
+.description{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
     padding: 20px;
-  }
-  #textconte {
-      transform: translateX(40%)
-  }
+    margin: 1%;
+    width: 25%;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+form {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 45px;
+}
+.input-ppal {
+    display: inline-block;
+    width: 100%;
+}
+textarea{  
+    overflow:hidden;
+    margin:10px;
+    display:block;
+    resize: none;
+    width: 80%;
+    padding: 30px;
+    border: none;
+    text-align: left;
+}
+input {
+    border: 2px solid #e6e6e6;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    margin: 2px;
+    float: left;
+}
+.input-ppal::after{
+    content: '';
+    display: block;
+    border-bottom: 4px solid #d1ccd1;
+    height: 4px;
+    width: 95%;
+    margin: 10px;
+}
+#mostrar-caracteres{
+    border:white; 
+    background-color:transparent; 
+    font-size:15px;
+    color: #71a7b8;
+    font-weight: bold;
+    float: right;
+}
+ul {
+     list-style: none;
+     display: block;
+}
+span {
+    display: block;
+    font-weight: 700;
+}
+  
