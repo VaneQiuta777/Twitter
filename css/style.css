@@ -1,0 +1,43 @@
+*, body {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../assets/images/Carretera-nieve.jpg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+ 
+}
+#containerNav{
+    width: 100%;
+    height: 100px;
+    border: 1px solid rosybrown;
+
+}
+nav {
+     
+}
+img, .logo {
+    height  : 30px;
+    width: 40px;
+}
+#containerPpal {
+    width: 100%;
+    height: 500px;
+    border: 1px solid royalblue;
+    position: relative;
+}
+
+#asideLeft {
+    width: 30%;
+    height: 100%;
+    border: 1px solid yellowgreen;
+    float: left;
+}
+#containerForm {
+    width: 70%;
+    height: 100%;
+    border: 1px solid rebeccapurple;
+    float: left;
+}
